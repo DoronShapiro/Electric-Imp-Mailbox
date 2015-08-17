@@ -39,5 +39,11 @@ The device is designed to be small enough to placed in the back of a mailbox.  T
 
 When mail is sent to a mailbox owner, a [cheap NFC tag](http://nfctags.tagstand.com/collections/nfc-stickers/products/the-25-25-25-roll-of-2500-ntag213-stickers) can be added to the mail and then registered with the recipient using a REST API. When tagged mail is received, the device checks if it has been registered and if so, can notify both the sender and receiver of the event.
 
+## Known Issues
+
+### V1:
+- Q6 is reversed (fixed in V2)
+- The `BAT+` net should be connected to the Imp's Pin A instead of Pin C in order to be accesible to an ADC (fixed in V2)
+
 ## License
 This project is licensed under the [MIT License](./LICENSE).
